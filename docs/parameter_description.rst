@@ -89,7 +89,7 @@ Include parent container names
 For the export script. Check the box if you want to include in the CSV output \
 for each objects the name of their parent containers.
 
-The possible parents are PROJECT, DATASET, SCREEN, PLATE, RUN, WELL, depending on which object type \
+The possible parents are PROJECT, DATASET, SCREEN, PLATE, PLATEACQUISITION, RUN, WELL, depending on which object type \
 is exported. These columns are ignored by default by the import script (see "*Columns to exclude*")
 
 Include Namespace
@@ -155,4 +155,4 @@ if you want to allow the creation of Tags when they don't exist. This also appli
 :Authors:
     Tom Boissonnet
 
-:Version: 1.0 of 2024/03/01
+:Version: 1.1 of 2025/11/20
